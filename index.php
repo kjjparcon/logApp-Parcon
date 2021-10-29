@@ -17,6 +17,10 @@
 			echo 'ERROR: '. mysqli_error($conn);
 		}
 	}
+	if(isset($_POST['submit']))
+  	{
+      		header("Location: guestbook-login.php");
+  	}
 ?>
 
 
